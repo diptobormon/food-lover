@@ -1,0 +1,152 @@
+body{
+    font-family: 'Zilla Slab', serif;
+    }
+h1{
+    font-size: 50px;
+    color: white;
+}
+h3{
+    color: rgb(236, 243, 132);   
+}
+.train-color{
+    color: rgb(248, 89, 32);
+}
+section{ 
+    display: flex;
+}
+.first-page{
+    padding-bottom: 163px;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+} 
+.width img {
+width: 100%;
+}
+.link-button{
+    text-decoration: none;
+  background-image: linear-gradient(orange,orangered);
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-weight: 700;
+border-radius: 5px;
+} 
+ .about-us {
+    background-image: url(images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    
+} 
+.myself{
+    color:rgb(54, 54, 46);
+    width: 50%;
+    padding-left: 40%;
+    padding-right: 5%;
+    padding-top: 5%;
+} 
+.intro{
+    color:rgb(54, 54, 46);
+    width: 50%;
+    padding-left: 40%;
+    padding-right: 5%;
+    
+}
+.about-image{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+.contact-button{
+   
+    margin-left: 40%;
+    text-decoration: none;
+  background-image: linear-gradient(orange,orangered);
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-weight: 700;
+border-radius: 5px;
+
+    
+}
+.recipies{
+
+   color: rgb(182, 118, 44);
+    padding-left: 68%;     
+}
+.about-recipies{
+    text-align: center;
+    color: burlywood;
+    padding-left: 50%; 
+}
+
+
+
+  
+
+
+   
+
+    
+ 
+
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    
+  
+}
+  
+.social-media{
+    overflow: hidden;
+    background: #17b978;
+}
+.style{
+    background: #071a52;  
+    transform: skewX(-45deg);    
+    position: relative;
+    left: -160px;
+}
+.social-icons{
+    background: #17b978;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.social-icons>ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.social-icons>ul>li{
+    padding: 10px;
+}
+.social-icons>ul>li>a{
+    font-size: 40px;
+    color: white;
+} 
+#breakfast img{
+    width: 150px;
+} 
+#lunch img{
+    width: 150px;
+} 
+#dinner img{
+    width: 150px;
+} 
+#breakfast {
+    width: 30%;
+}
+#lunch {
+    width: 30%;
+}
+#dinner {
+    width: 30%;
+}
