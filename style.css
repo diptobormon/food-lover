@@ -1,152 +1,195 @@
-body{
-    font-family: 'Zilla Slab', serif;
-    }
-h1{
-    font-size: 50px;
-    color: white;
+.navbar {
+  background-image: url(images/bg.jpg);
+  display: flex;
 }
-h3{
-    color: rgb(236, 243, 132);   
+nav {
+  flex: 1;
+  text-align: right;
+  margin-right: 50px;
 }
-.train-color{
-    color: rgb(248, 89, 32);
+.navbar nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
 }
-section{ 
-    display: flex;
+.navbar nav ul li a {
+  text-decoration: none;
+
+  font-size: 18px;
+  background-image: linear-gradient(orangered, gray);
+  padding: 10px 20px;
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 5px;
 }
-.first-page{
-    padding-bottom: 163px;
-    background-image: url(images/bg.jpg);
-    background-position: center;
-    background-size: cover;
+header img {
+  width: 60px;
+  cursor: pointer;
 }
-.width{
-    width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-} 
+header a {
+  padding-top: 1%;
+}
+
+body {
+  font-family: "Zilla Slab", serif;
+}
+h1 {
+  font-size: 50px;
+  color: white;
+}
+h2 {
+  color: wheat;
+}
+h3 {
+  color: rgb(236, 243, 132);
+}
+.train-color {
+  color: rgb(248, 89, 32);
+}
+section {
+  display: flex;
+}
+.first-page {
+  padding-bottom: 163px;
+  background-image: url(images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.width {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
 .width img {
-width: 100%;
+  width: 100%;
 }
-.link-button{
-    text-decoration: none;
-  background-image: linear-gradient(orange,orangered);
-    padding: 10px 20px;
-    color: whitesmoke;
-    font-weight: 700;
-border-radius: 5px;
-} 
- .about-us {
-    background-image: url(images/back.jpg);
-    background-position: center;
-    background-size: cover;
-    
-} 
-.myself{
-    color:rgb(54, 54, 46);
-    width: 50%;
-    padding-left: 40%;
-    padding-right: 5%;
-    padding-top: 5%;
-} 
-.intro{
-    color:rgb(54, 54, 46);
-    width: 50%;
-    padding-left: 40%;
-    padding-right: 5%;
-    
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, orangered);
+  padding: 10px 20px;
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 5px;
 }
-.about-image{
-    padding-left: 10%;
-    padding-top: 3%;
-    padding-bottom: 0%;
+.about-us {
+  background-image: url(images/back.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.contact-button{
-   
-    margin-left: 40%;
-    text-decoration: none;
-  background-image: linear-gradient(orange,orangered);
-    padding: 10px 20px;
-    color: whitesmoke;
-    font-weight: 700;
-border-radius: 5px;
-
-    
+.myself {
+  color: rgb(54, 54, 46);
+  width: 50%;
+  padding-left: 40%;
+  padding-right: 5%;
+  padding-top: 5%;
 }
-.recipies{
-
-   color: rgb(182, 118, 44);
-    padding-left: 68%;     
+.intro {
+  color: rgb(54, 54, 46);
+  width: 50%;
+  padding-left: 40%;
+  padding-right: 5%;
 }
-.about-recipies{
-    text-align: center;
-    color: burlywood;
-    padding-left: 50%; 
+.about-image {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 0%;
+}
+.contact-button {
+  margin-left: 40%;
+  text-decoration: none;
+  background-image: linear-gradient(orange, orangered);
+  padding: 10px 20px;
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.recipies {
+  color: rgb(182, 118, 44);
+  padding-left: 68%;
+}
+.about-recipies {
+  text-align: center;
+  color: rgb(54, 54, 46);
+  padding-left: 50%;
 }
 
-
-
-  
-
-
-   
-
-    
- 
-
-
-.section3{
-    display: flex;
-    justify-content: space-between;
-    padding: 120px;
-    
-  
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
 }
-  
-.social-media{
-    overflow: hidden;
-    background: #17b978;
+
+.social-media {
+  padding-left: 40%;
+  padding-bottom: 70px;
+  overflow: hidden;
+  background: black;
 }
-.style{
-    background: #071a52;  
-    transform: skewX(-45deg);    
-    position: relative;
-    left: -160px;
+.social-icons {
+  position: relative;
+
+  left: 30px;
 }
-.social-icons{
-    background: #17b978;
-    position: relative;
-    top: 10px;
-    left: 30px;
+.social-icons > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
 }
-.social-icons>ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
+.social-icons > ul > li {
+  padding: 10px;
 }
-.social-icons>ul>li{
-    padding: 10px;
+.social-icons > ul > li > a {
+  font-size: 40px;
+  color: white;
 }
-.social-icons>ul>li>a{
-    font-size: 40px;
-    color: white;
-} 
-#breakfast img{
-    width: 150px;
-} 
-#lunch img{
-    width: 150px;
-} 
-#dinner img{
-    width: 150px;
-} 
+
+#breakfast img {
+  width: 95%;
+  padding: 10px;
+  border-radius: 37px;
+}
+#lunch img {
+  width: 95%;
+  padding: 10px;
+  border-radius: 37px;
+}
+#dinner img {
+  width: 95%;
+  padding: 10px;
+  border-radius: 37px;
+}
 #breakfast {
-    width: 30%;
+  width: 30%;
+
+  border-radius: 20px;
+  box-shadow: 3px 3px 40px 8px gainsboro;
 }
 #lunch {
-    width: 30%;
+  width: 30%;
+
+  border-radius: 20px;
+  box-shadow: 3px 3px 40px 8px gainsboro;
 }
 #dinner {
-    width: 30%;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 40px 8px gainsboro;
+}
+footer {
+  text-align: center;
+  background-color: black;
+}
+.food-color {
+  color: darkgoldenrod;
+  padding-top: 20px;
+}
+#txt {
+  padding-left: 20px;
+  margin-right: 40px;
+  color: rgb(22, 22, 22);
+}
+.last {
+  color: wheat;
+  padding-bottom: 30px;
 }
